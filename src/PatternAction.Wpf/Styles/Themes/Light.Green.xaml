@@ -1,0 +1,70 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:options="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    mc:Ignorable="options">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/PatternAction.Wpf;component/Styles/Themes/Light.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <Color x:Key="PatternAction.Colors.Themes">#009688</Color>
+    <Color x:Key="PatternAction.Colors.Themes90">#E6009688</Color>
+    <Color x:Key="PatternAction.Colors.Themes80">#CC009688</Color>
+    <Color x:Key="PatternAction.Colors.Themes70">#B3009688</Color>
+    <Color x:Key="PatternAction.Colors.Themes60">#99009688</Color>
+    <Color x:Key="PatternAction.Colors.Themes50">#80009688</Color>
+    <Color x:Key="PatternAction.Colors.Themes40">#66009688</Color>
+    <Color x:Key="PatternAction.Colors.Themes30">#4D009688</Color>
+    <Color x:Key="PatternAction.Colors.Themes20">#33009688</Color>
+    <Color x:Key="PatternAction.Colors.Themes10">#1A009688</Color>
+
+    <Color x:Key="PatternAction.Colors.Themes.Highlight">#018276</Color>
+    <Color x:Key="PatternAction.Colors.Themes.Foreground">#FFFFFF</Color>
+
+    <Color x:Key="PatternAction.Colors.Default">#F6F6F6</Color>
+    <Color x:Key="PatternAction.Colors.Default.Hover">#FFFFFF</Color>
+    <Color x:Key="PatternAction.Colors.Default.Highlight">#F0F0F0</Color>
+    <Color x:Key="PatternAction.Colors.Info">#2AB9E4</Color>
+    <Color x:Key="PatternAction.Colors.Info.Hover">#50C5E8</Color>
+    <Color x:Key="PatternAction.Colors.Info.Highlight">#0BB0E1</Color>
+    <Color x:Key="PatternAction.Colors.Warning">#f0ad4e</Color>
+    <Color x:Key="PatternAction.Colors.Warning.Hover">#F2B967</Color>
+    <Color x:Key="PatternAction.Colors.Warning.Highlight">#F69A18</Color>
+    <Color x:Key="PatternAction.Colors.Danger">#F63530</Color>
+    <Color x:Key="PatternAction.Colors.Danger.Hover">#F85551</Color>
+    <Color x:Key="PatternAction.Colors.Danger.Highlight">#F5201B</Color>
+    <Color x:Key="PatternAction.Colors.Link">#2440B3</Color>
+    <Color x:Key="PatternAction.Colors.Link.Hover">#4059BD</Color>
+    <Color x:Key="PatternAction.Colors.Link.Highlight">#1532AA</Color>
+
+    <SolidColorBrush x:Key="PatternAction.Brushes.Themes" Color="{StaticResource PatternAction.Colors.Themes}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Themes90" Color="{StaticResource PatternAction.Colors.Themes90}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Themes80" Color="{StaticResource PatternAction.Colors.Themes80}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Themes70" Color="{StaticResource PatternAction.Colors.Themes70}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Themes60" Color="{StaticResource PatternAction.Colors.Themes60}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Themes50" Color="{StaticResource PatternAction.Colors.Themes50}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Themes40" Color="{StaticResource PatternAction.Colors.Themes40}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Themes30" Color="{StaticResource PatternAction.Colors.Themes30}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Themes20" Color="{StaticResource PatternAction.Colors.Themes20}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Themes10" Color="{StaticResource PatternAction.Colors.Themes10}" options:Freeze="True" />
+    
+    <SolidColorBrush x:Key="PatternAction.Brushes.Themes.Highlight" Color="{StaticResource PatternAction.Colors.Themes.Highlight}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Themes.Foreground" Color="{StaticResource PatternAction.Colors.Themes.Foreground}" options:Freeze="True" />
+
+    <SolidColorBrush x:Key="PatternAction.Brushes.Default" Color="{StaticResource PatternAction.Colors.Default}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Default.Hover" Color="{StaticResource PatternAction.Colors.Default.Hover}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Default.Highlight" Color="{StaticResource PatternAction.Colors.Default.Highlight}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Info" Color="{StaticResource PatternAction.Colors.Info.Hover}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Info.Hover" Color="{StaticResource PatternAction.Colors.Info}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Info.Highlight" Color="{StaticResource PatternAction.Colors.Info.Highlight}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Warning" Color="{StaticResource PatternAction.Colors.Warning}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Warning.Hover" Color="{StaticResource PatternAction.Colors.Warning.Hover}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Warning.Highlight" Color="{StaticResource PatternAction.Colors.Warning.Highlight}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Danger" Color="{StaticResource PatternAction.Colors.Danger}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Danger.Hover" Color="{StaticResource PatternAction.Colors.Danger.Hover}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Danger.Highlight" Color="{StaticResource PatternAction.Colors.Danger.Highlight}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Link" Color="{StaticResource PatternAction.Colors.Link}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Link.Hover" Color="{StaticResource PatternAction.Colors.Link.Hover}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Link.Highlight" Color="{StaticResource PatternAction.Colors.Link.Highlight}" options:Freeze="True" />
+    
+</ResourceDictionary>

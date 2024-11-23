@@ -1,0 +1,15 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/PatternAction.Wpf;component/Styles/Geometry.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/PatternAction.Wpf;component/Themes/ChormeWindow.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/PatternAction.Wpf;component/Themes/DateTimePicker.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/PatternAction.Wpf;component/Themes/ListBoxDragSelectViewer.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/PatternAction.Wpf;component/Themes/ListPager.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/PatternAction.Wpf;component/Themes/ProgressRing3Color.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/PatternAction.Wpf;component/Themes/ProgressRingArc1.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/PatternAction.Wpf;component/Themes/ProgressRingArc2.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/PatternAction.Wpf;component/Themes/ProgressRingWin10.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/PatternAction.Wpf;component/Themes/RunningBlock.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/PatternAction.Wpf;component/Themes/RunningText.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

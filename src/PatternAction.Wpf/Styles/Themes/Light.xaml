@@ -1,0 +1,57 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:options="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    mc:Ignorable="options">
+
+    <Color x:Key="PatternAction.Colors.Background" >#FFFFFF</Color>
+    <Color x:Key="PatternAction.Colors.Foreground" >#333333</Color>
+
+    <Color x:Key="PatternAction.Colors.Black" >#000000</Color>
+    <Color x:Key="PatternAction.Colors.Black90" >#1A1A1A</Color>
+    <Color x:Key="PatternAction.Colors.Black80" >#333333</Color>
+    <Color x:Key="PatternAction.Colors.Black70" >#4D4D4D</Color>
+    <Color x:Key="PatternAction.Colors.Black60" >#666666</Color>
+    <Color x:Key="PatternAction.Colors.Black50" >#808080</Color>
+    <Color x:Key="PatternAction.Colors.Black40" >#999999</Color>
+    <Color x:Key="PatternAction.Colors.Black30" >#B3B3B3</Color>
+    <Color x:Key="PatternAction.Colors.Black20" >#CCCCCC</Color>
+    <Color x:Key="PatternAction.Colors.Black10" >#E5E5E5</Color>
+
+    <Color x:Key="PatternAction.Colors.White" >#FFFFFF</Color>
+    <Color x:Key="PatternAction.Colors.White90" >#E5E5E5</Color>
+    <Color x:Key="PatternAction.Colors.White80" >#CCCCCC</Color>
+    <Color x:Key="PatternAction.Colors.White70" >#B3B3B3</Color>
+    <Color x:Key="PatternAction.Colors.White60" >#999999</Color>
+    <Color x:Key="PatternAction.Colors.White50" >#808080</Color>
+    <Color x:Key="PatternAction.Colors.White40" >#666666</Color>
+    <Color x:Key="PatternAction.Colors.White30" >#4D4D4D</Color>
+    <Color x:Key="PatternAction.Colors.White20" >#333333</Color>
+    <Color x:Key="PatternAction.Colors.White10" >#1A1A1A</Color>
+
+    <SolidColorBrush x:Key="PatternAction.Brushes.Background" Color="{StaticResource PatternAction.Colors.Background}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Foreground" Color="{StaticResource PatternAction.Colors.Foreground}" options:Freeze="True" />
+
+    <SolidColorBrush x:Key="PatternAction.Brushes.Black" Color="{StaticResource PatternAction.Colors.Black}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Black90" Color="{StaticResource PatternAction.Colors.Black90}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Black80" Color="{StaticResource PatternAction.Colors.Black80}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Black70" Color="{StaticResource PatternAction.Colors.Black70}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Black60" Color="{StaticResource PatternAction.Colors.Black60}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Black50" Color="{StaticResource PatternAction.Colors.Black50}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Black40" Color="{StaticResource PatternAction.Colors.Black40}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Black30" Color="{StaticResource PatternAction.Colors.Black30}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Black20" Color="{StaticResource PatternAction.Colors.Black20}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.Black10" Color="{StaticResource PatternAction.Colors.Black10}" options:Freeze="True" />
+
+    <SolidColorBrush x:Key="PatternAction.Brushes.White" Color="{StaticResource PatternAction.Colors.White}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.White90" Color="{StaticResource PatternAction.Colors.White90}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.White80" Color="{StaticResource PatternAction.Colors.White80}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.White70" Color="{StaticResource PatternAction.Colors.White70}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.White60" Color="{StaticResource PatternAction.Colors.White60}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.White50" Color="{StaticResource PatternAction.Colors.White50}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.White40" Color="{StaticResource PatternAction.Colors.White40}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.White30" Color="{StaticResource PatternAction.Colors.White30}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.White20" Color="{StaticResource PatternAction.Colors.White20}" options:Freeze="True" />
+    <SolidColorBrush x:Key="PatternAction.Brushes.White10" Color="{StaticResource PatternAction.Colors.White10}" options:Freeze="True" />
+
+</ResourceDictionary>
